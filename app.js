@@ -1,6 +1,27 @@
 'use strict'
+
+function  yesQuestions(answer){
+
+  if (answer.toUpperCase() === 'YES' || answer.toUpperCase() === 'Y'){
+    alert('You are not a Zombie!')
+  }else{
+    alert('Your infected with the T-Virus!')
+  }
+};
+function noQuestions(answer){
+  if (answer.toUpperCase() === 'No' || answer.toUpperCase() === 'N'){
+    alert('You are not a Zombie!')
+  }else{
+    alert('Your infected with the T-Virus!')
+  }
+};
+yesQuestions(prompt('You want play a dangerous game?'))
+noQuestions(prompt('Your in class and you hear a noise outside the door. Do you want check it out?'))
+yesQuestions(prompt('Would you run out of the building if there was a zombie?'))
+noQuestions(prompt('You outside the classroom and you see a classmate being eatten alive?!?! Do you save them?'))
+noQuestions(prompt('All seems lost, Do you take your own live vs being eatten by the unholy undead?'))
 //question 1
-var confirmed = confirm('Are you have your mind blowen!?');
+/*var confirmed = confirm('Are you have your mind blowen!?');
 
 if (confirmed === true){
   console.log('The User is ready!');
@@ -39,4 +60,4 @@ if (confirmed === true){
 } else {
   console.log('User is confused')
 };
-//question 6
+//question 6*/
