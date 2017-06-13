@@ -15,11 +15,12 @@ function noQuestions(answer){
     alert('Your infected with the T-Virus!')
   }
 };
-yesQuestions(prompt('You want play a dangerous game?'))
-noQuestions(prompt('Your in class and you hear a noise outside the door. Do you want check it out?'))
-yesQuestions(prompt('Would you run out of the building if there was a zombie?'))
-noQuestions(prompt('You outside the classroom and you see a classmate being eatten alive?!?! Do you save them?'))
-noQuestions(prompt('All seems lost, Do you take your own live vs being eatten by the unholy undead?'))
+yesQuestions(prompt('You want play a dangerous game? Enter Y/N or Yes/No. Note get the question wrong and you become a ZOMBIE!!!'))
+noQuestions(prompt('Did I die while in the Army?'))
+yesQuestions(prompt('Do I have a child?'))
+noQuestions(prompt('Is my pet really a dog?'))
+noQuestions(prompt('Is my coding skills good enough currently to join the workforce?'))
+yesQuestions(prompt('Do you feel like you won my little game?'))
 //question 1
 /*var confirmed = confirm('Are you have your mind blowen!?');
 
