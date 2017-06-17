@@ -23,28 +23,36 @@ noQuestions(prompt('All seems lost, Do you take your own live vs being eatten by
 
 var question6 = prompt('How many times am I going to re-take this class? Answer 1-10.');
 for (var answer6 = 0; answer6 < 4 ; answer6++) {
-if (question6 < 2){
+if (parseInt(question6 < 2)){
+  console.log('User is too low.')
   alert('You are too Low.');
   question6 = prompt('Guess Again.');
 } else if (question6 > 2){
+  console.log('User is too High')
   alert('You are too High.');
   question6 = prompt('Guess Again.');
 }else if (question6 == 2){
+  console.log('User got the right answer.')
   alert('You are correct....maybe.');
-  question6 = 4;
+  answer6 = 4;
 }
 }
-var question7 = prompt('What are some of my favorite games?');
-var answer7 = ['Call of Duty','Ark','Dying Light'];
-for (var answer7 = 0; answer7 < 4; answer7++) {
-if (questions7 = answer7[0,1,2]) {
-alert ('Good Job!');
-}else{
-alert('Nope');
-question7 = prompt('Try again.');
-question7 = 4;
-}
-}
+// //issue with 7 unable to get working correctly
+// var question7 = prompt('What are some of my favorite games?');
+// var answer7 = ['Call of Duty','Ark','Dying Light'];
+// for (var answer7 = 0; answer7 < 4; answer7++) {
+// if (question7 === answer7[0,1,2]){  //answer7[0], || answer7[1], || answer7[2]) {
+// alert ('Good Job!');
+// console.log('User right answer.');
+// }else{
+// alert('Nope');
+// console.log('User wrong answer.');
+// question7 = prompt('Try again.');
+// answer7 = 4;
+// }
+// }
+
+//No longer need code below just showing work.
 // //question 1
 // var confirmed = confirm('Are you have your mind blowen!?');
 //
