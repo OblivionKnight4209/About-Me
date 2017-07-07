@@ -46,8 +46,9 @@ var question6 = prompt('How many times am I going to re-take this class? Answer 
 }
 //issue with 7 unable to get working correctly
 var question7 = prompt('What are some of my favorite games?');
-var answer7 = ['Call of Duty','Ark','Dying Light'];
-for (var answer7 = 0; answer7 < 4; answer7++) {
+var answer7 = ["Call of Duty","Ark","Dying Light"];
+var a = answer7.indexOf();
+for (var a = 0; answer7 < 4; answer7++) {
   if(answer7.indexOf(question7 !== -1)){  //answer7[0], || answer7[1], || answer7[2]) not sure about this
     alert ('Good Job!');
     console.log('User right answer.');
