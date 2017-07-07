@@ -1,32 +1,30 @@
-h1{
-background-color: blue;
-border: 5px light black;
-font-style: italic;
-text-align: center;
+h1 {
+  background-color: blue;
+  border: 5px light black;
+  font-style: italic;
+  text-align: center;
 }
-p{
+p {
   border: 10px solid black;
   font-size: 20px;
 }
 .page-content {
   background-color: grey;
 }
-body{
-
+body  {
   background-color: Grey;
-
 }
-#unique-p-tag{
+#unique-p-tag {
   background-color: purple;
   font-size: 40px;
 }
-table{
+table {
   width: 600px;
 }
 th. td {
   padding: 7px 10px 10px 10px;
 }
-th{
+th {
   text-transform: uppercase;
   letter-spacing: 01.em;
   font-size: 90%;
@@ -35,6 +33,6 @@ th{
   text-align: center;
   background-color: white;
 }
-tr{
+tr {
   background-color: white;
 }
